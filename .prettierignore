@@ -1,0 +1,7 @@
+dist
+node_modules
+coverage
+build
+.vscode
+.nyc_output
+.vs
