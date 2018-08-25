@@ -1,5 +1,9 @@
-import * as express from 'express';
+import express from 'express';
 import logger from './utils/logger';
+
+import dotenv from 'dotenv';
+
+dotenv.config();
 
 const server = express();
 
