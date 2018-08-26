@@ -7,6 +7,7 @@ const express_1 = __importDefault(require("express"));
 const logger_1 = __importDefault(require("./utils/logger"));
 const dotenv_1 = __importDefault(require("dotenv"));
 dotenv_1.default.config();
+require("./telegram");
 const server = express_1.default();
 const port = 8080;
 server.listen(port, () => {
