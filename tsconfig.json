@@ -11,7 +11,7 @@
     "paths": {
       "*": ["node_modules/*", "src/types/*"]
     },
-    "exclude": ["node_modules"],
-    "include": ["./server.ts"]
+    "include": ["server.ts"],
+    "exclude": ["node_modules", "**/*.spec.ts"]
   }
 }
