@@ -3,7 +3,7 @@ import logger from './utils/logger';
 import dotenv from 'dotenv';
 dotenv.config();
 
-import './telegram';
+import './bot';
 
 const server = express();
 
