@@ -1,9 +1,7 @@
-const helpME = (name: String) => {
-  return `
-    Hi ${name}! Here what I can do:
-    1. Say you hi
-    2. Say you shalom
-    `;
-};
-
+const helpME = (name: String) =>
+  `
+  Hi ${name}! Here what I can do:
+  1. Nothing
+  2. Really nothing
+  `;
 export { helpME };
